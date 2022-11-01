@@ -1,0 +1,131 @@
+.navbar {
+    background: #F1F3FF !important;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.nav-list {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.list-group-item--modifier {
+    background: #5CB85F;
+}
+
+.jumbotron {
+    background: #F1F3FF;
+    padding: 180px 0 80px;
+}
+
+.btn__sewa--modifier {
+    background: #5CB85F;
+}
+
+.car__image {
+    width: 600px;
+}
+
+.our__services {
+    padding: 100px 0 0 0;
+}
+
+.image__services {
+    width: 400px;
+}
+
+.why__us {
+    padding: 100px 0 0 0;
+}
+
+.testimonial {
+    padding: 100px 0 0 0;
+}
+
+.testimonial__section {
+    background: #F1F3FF;
+}
+
+.testimonial__list {
+    transform: translateX(-220px);
+}
+
+.offer__section {
+    background: #0D28A6;
+    margin: 100px 0 0 0;
+}
+
+.offer__section--button,
+.button {
+    background: #5CB85F;
+}
+
+.button {
+    color: white;
+}
+
+.faq__section {
+    padding: 100px 0 0 0;
+}
+
+.footer {
+    padding: 100px 0 0 0;
+}
+
+.cars {
+    width: 850px;
+    margin: auto;
+    margin-top: 70px !important;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 1200px) {
+    .car__image {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .nav-list {
+        display: none !important;
+    }
+
+    .jumbotron {
+        padding: 100px 0 300px;
+    }
+
+    .testimonial__list {
+        transform: translateX(0px);
+    }
+
+    .cars {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .jumbotron {
+        padding: 100px 0 210px;
+    }
+
+    .jumbotron__section {
+        flex-direction: column;
+    }
+
+    .car__image {
+        width: 350px;
+    }
+
+    .cars {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

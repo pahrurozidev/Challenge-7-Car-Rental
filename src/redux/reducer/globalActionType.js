@@ -1,0 +1,5 @@
+export const actionType = {
+    SET_CARS: "SET_CARS",
+    SEARCH_CARS: "SEARCH_CARS",
+    SUBMIT_SEARCH_CARS: "SUBMIT_SEARCH_CARS"
+}
